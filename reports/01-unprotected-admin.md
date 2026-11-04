@@ -46,3 +46,25 @@ Authentication identifies the user.
 Authorization determines which actions the user may perform.
 
 Knowing an administrative URL must not grant administrative permissions.
+
+## Verification with Burp Suite Repeater
+
+I repeated the access control test using Burp Suite Community Edition.
+
+- Sent the administrative panel request without a Cookie header.
+- Confirmed that the response contained the user list and deletion links.
+- Submitted the lab's user deletion request.
+- Requested the panel again and confirmed that carlos was absent.
+- Observed the message "User deleted successfully!".
+
+This confirmed access to administrative functionality without authentication.
+The verification checked the response content and resulting state,
+rather than relying only on an HTTP status code.
+
+## Additional observation
+
+The application used GET for user deletion.
+
+State-changing operations should use an appropriate HTTP method,
+enforce authorization, and include CSRF protection when using cookie-based
+authentication. Changing the HTTP method alone does not fix access control.

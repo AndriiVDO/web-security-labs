@@ -29,3 +29,4 @@ observed behavior, impact, and recommended fixes.
 
 - Browser
 - Chrome DevTools
+- Burp Suite Community Edition: Proxy HTTP history and Repeater
