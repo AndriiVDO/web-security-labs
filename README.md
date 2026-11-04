@@ -18,6 +18,7 @@ All exercises use intentionally vulnerable training environments.
 - [SQL injection: retrieving hidden data](reports/02-sql-injection-hidden-data.md)
 - [SQL injection: login bypass](reports/03-sql-injection-login-bypass.md)
 - [Reflected XSS](reports/04-reflected-xss.md)
+- [Stored XSS](reports/05-stored-xss.md)
 
 ## Report structure
 
