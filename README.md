@@ -16,6 +16,7 @@ All exercises use intentionally vulnerable training environments.
 
 - [Unprotected admin functionality](reports/01-unprotected-admin.md)
 - [SQL injection: retrieving hidden data](reports/02-sql-injection-hidden-data.md)
+- [SQL injection: login bypass](reports/03-sql-injection-login-bypass.md)
 
 ## Report structure
 
