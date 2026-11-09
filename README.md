@@ -19,6 +19,7 @@ All exercises use intentionally vulnerable training environments.
 - [SQL injection: login bypass](reports/03-sql-injection-login-bypass.md)
 - [Reflected XSS](reports/04-reflected-xss.md)
 - [Stored XSS](reports/05-stored-xss.md)
+- [IDOR: User profile access](reports/06-idor-user-profile.md)
 
 ## Report structure
 
