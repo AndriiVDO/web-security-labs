@@ -23,6 +23,7 @@ All exercises use intentionally vulnerable training environments.
 - [Stored XSS](reports/05-stored-xss.md)
 - [IDOR: User profile access](reports/06-idor-user-profile.md)
 - [DOM-based XSS: document.write sink](reports/07-dom-based-xss.md)
+- [DOM-based XSS: innerHTML sink](reports/08-dom-xss-innerhtml.md)
 
 ## Report structure
 
