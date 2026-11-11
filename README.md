@@ -10,7 +10,9 @@ All exercises use intentionally vulnerable training environments.
 - SQL injection: authentication bypass
 - Reflected cross-site scripting (XSS)
 - Stored cross-site scripting (XSS)
+- DOM-based cross-site scripting (XSS)
 - Broken access control: unprotected administrative functionality
+- Insecure Direct Object References (IDOR)
 
 ## Reports
 
@@ -20,6 +22,7 @@ All exercises use intentionally vulnerable training environments.
 - [Reflected XSS](reports/04-reflected-xss.md)
 - [Stored XSS](reports/05-stored-xss.md)
 - [IDOR: User profile access](reports/06-idor-user-profile.md)
+- [DOM-based XSS: document.write sink](reports/07-dom-based-xss.md)
 
 ## Report structure
 
