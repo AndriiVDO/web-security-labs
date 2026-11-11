@@ -14,6 +14,7 @@ All exercises use intentionally vulnerable training environments.
 - Broken access control: unprotected administrative functionality
 - Insecure Direct Object References (IDOR)
 - Authentication vulnerabilities: username enumeration
+- Authentication vulnerabilities: two-factor authentication bypass
 
 ## Reports
 
@@ -26,6 +27,7 @@ All exercises use intentionally vulnerable training environments.
 - [DOM-based XSS: document.write sink](reports/07-dom-based-xss.md)
 - [DOM-based XSS: innerHTML sink](reports/08-dom-xss-innerhtml.md)
 - [Username enumeration via different responses](reports/09-username-enumeration.md)
+- [Two-factor authentication: simple bypass](reports/10-2fa-simple-bypass.md)
 
 ## Report structure
 
