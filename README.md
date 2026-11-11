@@ -13,6 +13,7 @@ All exercises use intentionally vulnerable training environments.
 - DOM-based cross-site scripting (XSS)
 - Broken access control: unprotected administrative functionality
 - Insecure Direct Object References (IDOR)
+- Authentication vulnerabilities: username enumeration
 
 ## Reports
 
@@ -24,6 +25,7 @@ All exercises use intentionally vulnerable training environments.
 - [IDOR: User profile access](reports/06-idor-user-profile.md)
 - [DOM-based XSS: document.write sink](reports/07-dom-based-xss.md)
 - [DOM-based XSS: innerHTML sink](reports/08-dom-xss-innerhtml.md)
+- [Username enumeration via different responses](reports/09-username-enumeration.md)
 
 ## Report structure
 
