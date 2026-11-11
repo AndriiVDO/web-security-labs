@@ -15,6 +15,7 @@ All exercises use intentionally vulnerable training environments.
 - Insecure Direct Object References (IDOR)
 - Authentication vulnerabilities: username enumeration
 - Authentication vulnerabilities: two-factor authentication bypass
+- API Security: API documentation exposure and broken object-level authorization (BOLA)
 
 ## Reports
 
@@ -28,6 +29,7 @@ All exercises use intentionally vulnerable training environments.
 - [DOM-based XSS: innerHTML sink](reports/08-dom-xss-innerhtml.md)
 - [Username enumeration via different responses](reports/09-username-enumeration.md)
 - [Two-factor authentication: simple bypass](reports/10-2fa-simple-bypass.md)
+- [Exploiting an API endpoint using documentation](reports/11-api-documentation.md)
 
 ## Report structure
 
